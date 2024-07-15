@@ -29,9 +29,11 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Code challenge
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Create a new page called `src/app/forms.tsx`
+2. Create a new layout called `src/app/(main)layout.tsx`. This will be the main layout for the entire app. What happens if you navigate to the `/forms` page?
+3. Think about what you would want in an app wide layout. A navbar? A sidebar? A footer? What would you put in each of these areas?
+4. Create a new form where the user can enter their name and email on the `/forms` page. When the form is submitted, the user should be redirected to the `/forms/success` page. (Hint: you can use the useRouter hook to redirect the user after the form is submitted).
+5. Bonus: Add partial functionality or UI based on features from your own projects!
 
